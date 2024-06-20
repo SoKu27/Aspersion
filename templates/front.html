@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% block title %}<title>Aspersion</title>{% endblock %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='styl.css')}}">
+    <link rel="icon" href="/static/aspersionicon.jpg" type="image/x-icon">
+</head>
+<body>
+    {% block content %}
+    <div class="cproductiontop"> 
+        <div class="productiontop">
+            A QUANTUM REEL PRODUCTION
+        </div>
+    </div>
+    <div class="ctitlebanner">
+        <img src="/static/titlebanner.jpg" class="titlebanner">
+    </div>
+    <div class="grid-container">
+        <div class="texts"> 
+            <div class="releasedate">
+                COMING TO THEATERS CHRISTMAS 2024
+            </div>
+            <div class="moviedescription">
+                    In the upcoming political mystery thriller "Aspersion,"
+                the stakes are high as President Chase Lewis desperately tries to secure his reelection.
+                However, he faces a formidable opponent in the charismatic Peter Turner.
+                After a shocking debate loss, Lewis's desperation transforms into ruthless determination,
+                leading him to orchestrate Turner's demise. As the government officials conspire to keep
+                the assassination a secret and make it look like an accident, Jimmy Jenkins, the president's most trusted agent,
+                grapples with the morality of this act. Sonny, Peter's son quickly plunges into a deep depression.
+                However, Sonny's life takes an unexpected turn when a mysterious stranger delivers crucial information
+                about his father's death. Fueled by this revelation, Sonny embarks on a perilous journey for justice and revenge
+                against those responsible for his father's murder, navigating a treacherous world of political intrigue and covert
+                operations. "Aspersion" weaves a tale of betrayal, courage, suspense, and the relentless pursuit of
+                truth in the face of political machinations. Scroll down to learn about the 4 main characters.
+            </div>
+        </div>    
+        <div class="cmovieposter">
+            <img src="/static/movieposter.jpg" class="movieposter">
+            <div class="moviepostertext">OFFICIAL MOVIE POSTER</div>
+        </div>
+    </div>
+    <section id="1">
+        <div class="cast">
+            THE CAST
+        </div>
+    </section>
+    <div class="grid-container3">
+        <div class="castcontent">
+            <div class="evanpop">
+                <img src="static/evancharpost.jpg" class="pic">                
+                <a href="/Sonny"><button class="charecterbuttons">Click to Meet Sonny Turner</button></a>
+                <div class="popcontent">
+                    <div class="popup-contentevan" id="popdes">
+                        <img src="static/evansenior.jpg" class="poppic">
+                        <div class="pop-text">EVAN WODELE IN AND AS SONNY TURNER</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="castcontent">
+            <div class="sohampop"> 
+                <img src="static/sohamcharpost.jpg" class="pic">
+                <a href="/Chase"><button class="charecterbuttons">Click to Meet Chase Lewis</button></a>
+                <div class="popcontent">
+                    <div class="popup-contentsoham" id="popdes">
+                        <img src="static/sohamsenior.jpg" class="poppic">
+                        <div class="pop-text">SOHAM KUNDU IN AND AS CHASE LEWIS</div>
+                    </div>  
+                </div>
+            </div>            
+        </div>
+        <div class="castcontent">
+            <div class="tylerpop">
+                <img src="static/tylercharpost.jpg" class="pic"> 
+                <a href="/Peter"><button class="charecterbuttons">Click to Meet Peter Turner</button></a>
+                <div class="popcontent">
+                    <div class="popup-contenttyler" id="popdes">
+                        <img src="static/tylersenior.jpg" class="poppic">
+                        <div class="pop-text">TYLER WALKOSZ IN AND AS PETER TURNER</div>
+                    </div>
+                </div>
+            </div>        
+        </div>
+        <div class="castcontent">
+            <div class="saipop">
+                <img src="static/saicharpost.jpg" class="pic">
+                <a href="/Jimmy"><button class="charecterbuttons">Click to Meet Jimmy Jenkins</button></a>
+                <div class="popcontent">
+                    <div class="popup-contentsai" id="popdes">
+                        <img src="static/saisenior.jpg" class="poppic">
+                        <div class="pop-text">SAI KASIREDDY IN AND AS JIMMY JENKINS</div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div class="grid-container2">
+        <section id="2">
+            <div class="socialitems1"> 
+                <a href="https://youtu.be/b_RAmJ9LUpE?si=OmILqrNviW2uszua" target="_blank"><button class="socialbuttons" id="trailerpop">Watch the Trailer!</button></a>
+                <div class="popcontent">
+                    <div class="popup-socialtrailer" id="popdessocials">
+                        <img src="static/trailerthumbnail.jpg" class="poppicsocial" id="thumbnail">
+                        <div class="pop-textsocials">TRAILER</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="socialitems2"> 
+            <a href="https://www.instagram.com/aspersionffi/" target="_blank"><button class="socialbuttons" id="instagrampop">Check out the Instagram!</button></a>
+            <div class="popcontent">
+                <div class="popup-socialinstagram" id="popdessocials">
+                    <img src="static/instass.jpg" class="poppicsocial" id="instapic">
+                    <div class="pop-textsocials">INSTAGRAM</div>
+                </div>
+            </div>
+        </div>
+        <div class="socialitems3">
+            <a href="/merch"><button class="socialbuttons" id="merchpop">Buy Merch!</button></a>
+            <div class="popcontent">
+                <div class="popup-socialmerch" id="popdessocials">
+                    <img src="static/blackhoodie.jpg" class="poppicsocial" id="blackh">
+                    <div class="pop-textsocials">MERCH STORE</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cproductionpic"> 
+        <img src="static/production-company.jpg" class="productionpic">
+    </div>
+    {% endblock %}
+</body>
+
+
+</html>
